@@ -2187,13 +2187,13 @@ font-size: 17px;}
 	opacity: 1;
 	font-size: 30px;
 	color: #000;
-}
+}	
 
 #myCarousel .carousel-control-prev:hover,
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-	background: #fc4311;
+	background: black;
 	color: #fff;
 }
 
