@@ -1345,6 +1345,15 @@ nav.main-menu {
 	background: #114c7d;
 }
 
+#container3
+{
+	margin-top: 25px;
+}
+
+#container4
+{
+	margin-top: 25px;
+}
 
 
 
@@ -1466,12 +1475,12 @@ z-index: 999;
 }
 
 .Screenshot .titlepage {
-	padding-bottom: 60px;
+	padding-bottom: 45px;
 	text-align: center;
 }
 
 .Screenshot .titlepage span {
-	color: # 3d3c3c
+	color: #3d3c3c
 }
 
 .Screenshot .titlepage h2 {
@@ -1567,26 +1576,30 @@ margin-bottom: 20px;
    
 }
 
-
+.col-sm-4 .col-md-3
+{
+	margin: 0;
+	padding: 0;
+}
 
 .service {
-	padding-top: 90px;
-	padding-bottom: 60px;
+	padding-top: 0px;
+	padding-bottom: 50px;
 	background: #f4f4f4;
 	margin-top: 90px;
 }
 
 .service .titlepage span {
-	color: # 3d3c3c
+	color: #3d3c3c
 }
 
 .service .service-box figure {
 	margin: 0px;
+	text-align: center;
 }
 
 .service .service-box figure img {
 	width: 100%;
-	border-radius: 20px;
 }
 
 .green {
