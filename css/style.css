@@ -1144,7 +1144,8 @@ nav.main-menu {
 	vertical-align: middle;
 }
 
-.main-menu ul>li:nth-child (6) {
+.main-menu ul>li:nth-child(6) 
+{
 	padding-right: 0px;
 }
 
