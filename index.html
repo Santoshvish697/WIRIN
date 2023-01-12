@@ -104,7 +104,7 @@
       <section class="slider_section">
          <div id="myCarousel" class="carousel slide banner-main" data-ride="carousel">
             <div class="carousel-inner">
-               <div class="carousel-item active">
+               <div class="carousel-item active"s>
                   <img class="first-slide" src="images/slidenew.jpg" alt="First slide">
                   <div class="container">
                      <div class="carousel-caption relative">
@@ -177,7 +177,7 @@
       <!-- end abouts -->
       
 <!-- Download -->
-      <div id="screenshot" class="Screenshot" data-aos="fade-up"  data-aos-offset="200" data-aos-duration="1000">
+      <div id="screenshot" class="Screenshot bg-white" data-aos="fade-up"  data-aos-offset="200" data-aos-duration="1000">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
@@ -479,6 +479,20 @@
       .colab-logo-lg {
          width: 200px;
          height: fit-content;
+      }
+      .slider_section{
+         max-height: 85vh;
+      }
+      .carousel {
+         max-height: 85vh;
+      }
+      .carousel-inner {
+         max-height: 85vh;
+         overflow: hidden;
+      }
+      .carousel-item img {
+         height: auto;
+         width: 100%;
       }
    </style>
 </html>
