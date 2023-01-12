@@ -30,6 +30,10 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/css/foundation.min.css" integrity="sha512-FiuJrymBAjwc33PPG6AqRpCw+lIoBy+3hdFRE7uSSYaLH4ZxTQ1r+YSaLf9HB6abBl3o6mfk4iqRhnyaT0zlLw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/css/twentytwenty.min.css" integrity="sha512-NJy06C7fPArp8I0XLO5pDDTDguBMLCPQ2FyjU3xrwuD5CGyN6CbfTr40Zv+YON7lDNzAsRqZeEY8Oi0xrgP+3w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       
+
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
       <script src = "js/scripts.js"></script>
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -131,7 +135,7 @@
          </div>
       </section>
 <!-- about  -->
-      <div id="about" class="about">
+      <div id="about" class="about" data-aos="fade-up"  data-aos-offset="200" data-aos-duration="1000">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
@@ -173,7 +177,7 @@
       <!-- end abouts -->
       
 <!-- Download -->
-      <div id="screenshot" class="Screenshot">
+      <div id="screenshot" class="Screenshot" data-aos="fade-up"  data-aos-offset="200" data-aos-duration="1000">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
@@ -219,47 +223,46 @@
       <!-- end Download -->
 
 <!-- service --> 
-      <div id="service" class="service">
-         <div class="container">
+      <div id="collab-anchor"></div>
+      <div id="collaborators" class="service pb-5 pt-3 mt-2" data-aos="fade-up" data-aos-offset="900" data-aos-duration="1600" data-aos-anchor="#screenshot" data-aos-anchor-position="bottom-bottom">
+         <div class="container" >
             <div class="row">
                <div class="col-md-12">
-                  <div class="titlepage">
+                  <div class="titlepage" >
                      <h2 style="color: #2d84d2;padding-top: 10px; text-align: center;">Collaborators</h2>
                   </div>
                </div>
             </div>
          </div>
-         <div class="container">
-            <div class="columns">
-               <div class="column">
-                  <div class="service-box">
-                     <figure>
-                        <img  src="images/logos/NID.png" class="img-fluid" style = "padding: 2rem; width: 500px; height: 100px; padding-top: 2.5rem;" alt="">
-                     </figure>
-                  </div>
+         <div class="container" >
+
+            <div class="d-flex justify-content-around flex-wrap ">
+               <div class="p-2 d-flex align-content-center">
+                  <img class="colab-logo-lg align-self-center" src="images/logos/NID.png" class="img-fluid" alt=""
+                           data-aos="zoom-in" data-aos-offset="950" data-aos-duration="1300" data-aos-anchor="#screenshot" data-aos-anchor-position="bottom-bottom"
+                        >
                </div>
-               <div class="column">
-                  <div class="service-box">
-                     <figure>
-                        <img  src="images/logos/RVCE.png" class="img-fluid" style = "height: 100px; width: auto;"  alt="">
-                     </figure>
-                  </div>
+
+               <div class="p-2 d-flex align-content-center">
+                  <img class="colab-logo align-self-center" src="images/logos/RVCE.png" class="img-fluid"  alt=""
+                     data-aos="zoom-in" data-aos-offset="950" data-aos-duration="1300" data-aos-anchor="#screenshot" data-aos-anchor-position="bottom-bottom"
+                  >
                </div>
-               <div class="column">
-                  <div class="service-box">
-                     <figure>
-                        <img  src="images/logos/WPRO.png" class="img-fluid" style = "height: 350px;width:fit-content;margin: 0 auto;height: 150px;padding-bottom: 25px;bottom: 15px;" alt="">
-                     </figure>
-                  </div>
+
+               <div class="p-2 d-flex align-content-center">
+                  <img class="colab-logo align-self-center" src="images/logos/WPRO.png" class="img-fluid" alt=""
+                     data-aos="zoom-in" data-aos-offset="950" data-aos-duration="1300" data-aos-anchor="#screenshot" data-aos-anchor-position="top-top"
+                  >
                </div>
-               <div class="column">
-                  <div class="service-box">
-                     <figure>
-                        <img  src="images/logos/IISC.png" class="zoom img-fluid" style = "height: 100px; width: auto;margin-bottom: 1rem;" alt="">
-                     </figure>
-                  </div>
+
+               <div class="p-2 d-flex align-content-center">
+                  <img class="colab-logo align-self-center" src="images/logos/IISC.png" class="zoom img-fluid" alt=""
+                     data-aos="zoom-in" data-aos-offset="0" data-aos-duration="1300" data-aos-anchor="#screenshot" data-aos-anchor-position="top-top"
+                  >
                </div>
+
             </div>
+
          </div>
       </div>
       <!-- end service -->
@@ -336,7 +339,7 @@
       </div> -->
       <!-- end our blog -->
       <!-- Testimonial -->
-      <div id="contact" class="contact">
+      <div id="contact" class="contact" >
          <div class="container">
             <div class="row">
                <div class="col-md-12">
@@ -347,9 +350,8 @@
             </div>
             <div class="row">
              
-               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 offset-md-3">
-                  <div class="contact">
-                     
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 offset-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor="#collaborators">
+                  <div class="contact" >
                      <form>
                         <div class="row">
                            <div class="col-sm-12">
@@ -376,7 +378,7 @@
       </div>
       <!-- end Testimonial --> 
       <!--  footer --> 
-      <footr>
+      <footr >
          <div class="footer" >
             <div class="container">
                <div class="row">
@@ -433,6 +435,11 @@
       <script src="js/custom.js"></script>
       <script>
          $(document).ready(function(){
+            console.log("init");
+
+            AOS.init();
+
+            console.log("AOS called");
          $(".fancybox").fancybox({
          openEffect: "none",
          closeEffect: "none"
@@ -463,4 +470,15 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.twentytwenty.min.js" integrity="sha512-GPLeok4pmABjbz8dF6i4cqao9fhF9LE5X4rI0ORBe2YqbZmaqdSiM7g4oO+CEy99SxZV6memnoKANwopFr6Z6g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
    </body>
+
+   <style>
+      .colab-logo {
+         height: fit-content;
+         width: 100px;
+      }
+      .colab-logo-lg {
+         width: 200px;
+         height: fit-content;
+      }
+   </style>
 </html>
