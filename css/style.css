@@ -452,7 +452,10 @@ a.readmore_bt {
 /*---------------------------------------------------------------------
     header area
 ---------------------------------------------------------------------*/
-
+.carousel-item img {
+	height : 85vh;
+	width : 100%;
+	}
 .logo_section {
 	text-align: center;
 }
@@ -1641,6 +1644,7 @@ flex: 25%;
 .service .titlepage {
 	text-align: center;
 	padding-bottom: 50px;
+	padding-top: 30px;
 }
 
 .service .titlepage h2 {
@@ -2003,8 +2007,9 @@ margin-bottom: 20px;
 }
 
 .footer {
-	background: #fc4311;
+	background: #1C2938;
 	padding-top: 55px;
+	padding-bottom: 30px;
 }
 
 .footer .address h3 {

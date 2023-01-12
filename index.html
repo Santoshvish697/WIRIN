@@ -16,6 +16,7 @@
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/style copy.css">
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
@@ -28,7 +29,7 @@
       <link rel = "stylesheet" href = "./modules/twentytwenty-master/css/twentytwenty.css" type = "text/css" media = "screen"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/css/foundation.min.css" integrity="sha512-FiuJrymBAjwc33PPG6AqRpCw+lIoBy+3hdFRE7uSSYaLH4ZxTQ1r+YSaLf9HB6abBl3o6mfk4iqRhnyaT0zlLw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/css/twentytwenty.min.css" integrity="sha512-NJy06C7fPArp8I0XLO5pDDTDguBMLCPQ2FyjU3xrwuD5CGyN6CbfTr40Zv+YON7lDNzAsRqZeEY8Oi0xrgP+3w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+      
       <script src = "js/scripts.js"></script>
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -44,35 +45,55 @@
       <!-- header -->
       <header>
          <!-- header inner -->
-         <div class="header" style="background-image: linear-gradient(90deg, rgb(25, 205, 115), #2d84d2 );">
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                  <div class="full">
-                     <div class="center-desk">
-                        <div class="logo"> <a href="index.html">WIRIN</a> </div>
-                     </div>
+         <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">WIRIN</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span> Menu
+              </button>
+              <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Dataset</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Team</a></li>
+                    <li class="nav-item dropdown position-static">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Page</a>
+                  <div class="dropdown-menu p-4" aria-labelledby="dropdown04">
+                      <div class="row">
+                          <div class="col-md-3">
+                              <a class="dropdown-item" href="">Benchmarks</a>
+                            <a class="dropdown-item" href="">Page 2</a>
+                            <a class="dropdown-item" href="">Page 3</a>
+                            <a class="dropdown-item" href="">Page 4</a>
+                          </div>
+                          <!-- <div class="col-md-3 d-none d-md-block">
+                              <a href="#" class="img" style="background-image: url(images/img-1.jpg);"></a>
+                              <div class="text">
+                                  <h3><a href="#">Amazing Architecture</a></h3>
+                                  <span>Architect</span>
+                              </div>
+                          </div>
+                          <div class="col-md-3 d-none d-md-block">
+                              <a href="#" class="img" style="background-image: url(images/img-2.jpg);"></a>
+                              <div class="text">
+                                  <h3><a href="#">Amazing Architecture</a></h3>
+                                  <span>Architect</span>
+                              </div>
+                          </div>
+                          <div class="col-md-3 d-none d-md-block">
+                              <a href="#" class="img" style="background-image: url(images/img-3.jpg);"></a>
+                              <div class="text">
+                                  <h3><a href="#">Amazing Architecture</a></h3>
+                                  <span>Architect</span>
+                              </div>
+                          </div> -->
+                      </div>
                   </div>
-               </div>
-               <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                  <div class="menu-area">
-                     <div class="limit-box">
-                        <nav class="main-menu">
-                           <ul class="menu-area-main">
-                              <li class="active"> <a href="index.html">Home</a> </li>
-                              <li> <a href="">Team</a> </li>
-                              <li> <a href="#service">Partners</a> </li>
-                              <li> <a href="#screenshot">Gallery</a> </li>
-                              <li> <a href="#blog">Dataset</a> </li>
-                              <li> <a href="#contact">Contact us</a> </li>
-                              <li class="mean-last"> <a href="#"><img src="images/search_icon.png" alt="#" /></a> </li>
-                           </ul>
-                        </nav>
-                     </div>
-                  </div>
-               </div>
+                </li>
+                </ul>
+              </div>
             </div>
-         </div>
+          </nav>
          <!-- end header inner --> 
       </header>
       <!-- end header -->
@@ -203,7 +224,7 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2 style="color: #2d84d2;padding-top: 10px;">Collaborators</h2>
+                     <h2 style="color: #2d84d2;padding-top: 10px; text-align: center;">Collaborators</h2>
                   </div>
                </div>
             </div>
@@ -356,7 +377,7 @@
       <!-- end Testimonial --> 
       <!--  footer --> 
       <footr>
-         <div class="footer" style="background-image: linear-gradient(90deg, rgb(25, 205, 115), #2d84d2 );">
+         <div class="footer" >
             <div class="container">
                <div class="row">
                   <div class="col-lg-2 col-md-6 col-sm-12 width">
@@ -397,7 +418,6 @@
 
 
             </div>
-            <hr>
          </div>
       </footr>
       <!-- end footer -->
