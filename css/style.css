@@ -1464,9 +1464,8 @@ flex-wrap: wrap;
 width: 70px;
 height: 70px;
 margin-bottom: -35px;
-z-index: 999;
+z-index: 90;
 
-}
 }
 
 
