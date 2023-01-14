@@ -1371,6 +1371,10 @@ nav.main-menu {
 	padding-bottom: 35px;
 }
 
+header{
+	color: #000;
+}
+
 .logo a {
 	font-size: 40px;
 	font-weight: bold;
@@ -1700,7 +1704,7 @@ table .table-bordered > thead > tr > th{
 	overflow: hidden;
 }
 
-#collaborators
+#class_table
 {
 	background-color:rgba(127, 255, 212,0.4) ;
 }
