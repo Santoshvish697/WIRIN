@@ -1683,10 +1683,26 @@ flex: 25%;
 	transition: all 0.5s;
 }
 
+#features
+{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background-color:rgba(127,255,212,0.1);
+}
+
+table .table-bordered > thead > tr > th{
+	border:5px solid black;
+  }
+
 #demo {
 	height: 100%;
 	position: relative;
 	overflow: hidden;
+}
+
+#collaborators
+{
+	background-color:rgba(127, 255, 212,0.4) ;
 }
 
 .thumb {
@@ -1732,8 +1748,38 @@ img.zoom {
 
 /** about section **/
 
+#heading
+{
+	padding: 90px 0px 40px 0px;
+}
+
+.heading .titlepage
+{
+	text-align: center;
+	padding-top: 15px;
+}
+
+#heading .titlepage h1
+{
+	padding: 20px 0px 6px 0px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #050303;
+	line-height: 46px;
+	border-bottom: #fc4311 solid 1px;
+	width: 410px;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	margin-bottom: 20px;
+}
+
+.features
+{
+	padding-bottom: 30px;
+}
+
 .about {
-	padding: 90px 0px;
+	margin-top: 30px;
 	background: #fff;
 }
 
@@ -1763,8 +1809,10 @@ img.zoom {
 	padding-bottom: 60px;
 }
 
-.about .titlepage h2 {
-	padding: 0px 0px 6px 0px;
+.about .titlepage h1,
+.about .titlepage h2, 
+.features .titlepage h2{
+	padding: 20px 0px 6px 0px;
 	font-size: 40px;
 	font-weight: bold;
 	color: #050303;
@@ -1775,6 +1823,34 @@ img.zoom {
 	margin-bottom: 0px;
 	margin-bottom: 20px;
 }
+
+.titlepage ul li {
+    list-style-type: square;
+	display: list-item;
+	margin-top: 20px;
+}
+
+.titlepage ul > li {
+    margin-left: 30px;
+}
+
+.titlepage ul > ul > li {
+	margin-left: 40px;
+}
+
+.titlepage ul > ul > ul > li {
+	margin-left: 50px;
+}
+
+.titlepage ul ul li{
+	list-style-type: circle;
+	display: list-item;
+}
+
+.titlepage ul ul ul li {
+	list-style: inside;
+}
+
 
 .about .titlepage span {
 	color: #3d3c3c;
@@ -1798,6 +1874,11 @@ img.zoom {
 	line-height: 28px;
 } 
 .about .about-img figure {
+	margin: 0;
+}
+
+.about
+{
 	margin: 0;
 }
 
@@ -2172,6 +2253,7 @@ font-size: 17px;}
 	background-color: #ad2100;
 }
 
+
 .Currency-bg .abouttitle h2 {
 	color: #fff;
 	text-transform: uppercase;
@@ -2210,6 +2292,13 @@ font-size: 17px;}
 	text-align: center;
 }
 
+.card{
+	border-radius: 20%;
+}
+
+.card-body{
+	border-radius: 20%;
+}
 
 /** slider arrow **/
 

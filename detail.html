@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css" />
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css" />
+   <link rel="stylesheet" href="css/style copy.css" />
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css" />
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" media="screen" />
+   <link rel="stylesheet" href="./modules/twentytwenty-master/css/twentytwenty.css" type="text/css" media="screen" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/css/foundation.min.css"
+      integrity="sha512-FiuJrymBAjwc33PPG6AqRpCw+lIoBy+3hdFRE7uSSYaLH4ZxTQ1r+YSaLf9HB6abBl3o6mfk4iqRhnyaT0zlLw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/css/twentytwenty.min.css"
+      integrity="sha512-NJy06C7fPArp8I0XLO5pDDTDguBMLCPQ2FyjU3xrwuD5CGyN6CbfTr40Zv+YON7lDNzAsRqZeEY8Oi0xrgP+3w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="css/navbar.css" />
+   <link rel="stylesheet" href="css/animated.css" />
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="js/scripts.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+           <span class="dot"></span>
+           <div class="dots">
+              <span></span>
+              <span></span>
+              <span></span>
+           </div>
+        </div>
+     </div>
+
+     <!-- header -->
+     <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+        <div class="container">
+           <div class="row">
+              <div class="col-12">
+                 <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                       <li><a href="index.html" class="active">Home</a></li>
+                       <li><a href="category.html">Category</a></li>
+                       <li><a href = "dataset.html">Dataset</a></li>
+                       <li><a href="#contact">Contact Us</a></li>
+                       <li>
+                          <div class="main-white-button"><a href="#"><i class="fa fa-plus"></i> Add Your Listing</a></div>
+                       </li>
+                    </ul>
+                    <a class='menu-trigger'>
+                       <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                 </nav>
+              </div>
+           </div>
+        </div>
+     </header>
+     <!-- about  -->
+     <div id="heading" class="heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="titlepage" id = "heading_title">
+                    <h1 style="color: #2d84d2;">DATASET</h1>
+                    <span>
+                        The WIRIN Dataset focuses on semantic understanding of urban and semi-urban street scenes. In the following, we give an overview on the design choices that were made to target the dataset’s focus.
+                    </span>
+                 </div>
+              </div>
+           </div>
+        </div>
+    </div>
+
+    <div id="features" class="features" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="titlepage">
+                    <h2 style="color: #2d84d2; text-align: center;">Features</h2>
+                   <!--CARD DECK-->
+                   <div class="row">
+                    <div class="card-deck mt-4" id = "resize">
+                     <div class="card bg-primary" style = "width: 600px; height: auto;">
+                       <div class="card-body">
+                         <h5 class="card-title">Polygonal Annotations</h5>
+                         <p class="card-text">
+                           <ul>
+                              <li class="list">Dense semantic segmentation</li>
+                              <li class="list">Instance segmentation for vehicle and people</li>
+                              <li class="list">Point Cloud Annotation</li>
+                           </ul>
+                         </p>
+                       </div>
+                     </div>
+                     <div class="card bg-info">
+                       <div class="card-body">
+                         <h5 class="card-title">Complexity</h5>
+                         <p class="card-text">
+                           <ul>
+                               <li>3D Classes</li>
+                           </ul>
+                        </p>
+                       </div>
+                     </div>
+                     <div class="card text-white bg-danger">
+                       <div class="card-body">
+                         <h5 class="card-title text-white">Diversity</h5>
+                         <p class="card-text">
+                           <ul>
+                              <li>50 cities</li>
+                              <li>Daytime and Night Time</li>
+                              <li>Good/Medium Weather Conditions</li>
+                              <li>Manually selected frames</li>
+                              <ul>
+                                  <li>Large number of dynamic objects</li>
+                                  <li>Varying scene layout</li>
+                                  <li>Varying background</li>
+                              </ul>
+                          </ul>
+                         </p>
+                       </div>
+                     </div>
+                   </div>
+                   </div>
+                   <div class="row">
+                     <div class="card-deck mt-4">
+                        <div class="card bg-warning">
+                          <div class="card-body">
+                            <h5 class="card-title">Volume</h5>
+                            <p class="card-text">
+                              <ul>
+                                 <li>Some number of annotated images with fine annotations</li>
+                             </ul>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="card bg-light">
+                          <div class="card-body">
+                            <h5 class="card-title">Metadata</h5>
+                            <p class="card-text">
+                              <ul>
+                                 <li>Preceding and trailing video frames. Each annotated image is the 20th image from a 30 frame video snippets (1.8s)</li>
+                                 <li>Corresponding right stereo views</li>
+                                 <li>GPS coordinates</li>
+                                 <li>Ego-motion data from vehicle odometry</li>
+                                 <li>Outside temperature from vehicle sensor</li>
+                             </ul>
+                           </p>
+                          </div>
+                        </div>
+                        <div class="card text-white bg-secondary">
+                          <div class="card-body">
+                            <h5 class="card-title text-white">Extensions by other researchers</h5>
+                            <p class="card-text">
+                              <ul>
+                                 <li>Bounding box annotations of people</li>
+                                 <li>Images augmented with fog and rain</li>
+                             </ul>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="row" style="text-align: center; align-items: center;">
+                        <div class="col d-flex justify-content-center"><div class="card mt-4 bg-primary" style="width: 240px;">
+                           <div class="card-body">
+                             <h5 class="card-title">Benchmark suite and evaluation server</h5>
+                             <p class="card-text">
+                               <ul>
+                                  <li>Pixel-level semantic labeling</li>
+                                  <li>Instance-level semantic labeling</li>
+                                  <li>Panoptic semantic labeling</li>
+                              </ul>
+                             </p>
+                           </div>
+                        </div>
+                        </div>
+                     </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+    </div>
+
+    <div id="about" class="about" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2 style="color: #2d84d2;">Labelling Policy</h2>
+                  <span>
+                     Labeled foreground objects must never have holes, i.e. if there is some background visible ‘through’ some foreground object, it is considered to be part of the foreground. This also applies to regions that are highly mixed with two or more classes: they are labeled with the foreground class. Examples: tree leaves in front of house or sky (everything tree), transparent car windows (everything car).
+                  </span>
+               </div>
+            </div>
+         </div>
+      </div>
+  </div>
+    
+     <!-- end abouts -->
+  
+     <!-- Download -->
+     
+     <!-- end Download -->
+  
+     <!-- service -->
+     <div id="collaborators" class="service pb-5 pt-3 mt-2" data-aos="fade-up" data-aos-offset="900"
+        data-aos-duration="1600" data-aos-anchor="#screenshot" data-aos-anchor-position="bottom-bottom">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="titlepage">
+                    <h2 style="color: #2d84d2;padding-top: 10px;margin-bottom: 20px; text-align: center;">Class Definitions</h2>
+                    <table class="table table-bordered" style="border-color: black;">
+                     <thead class="thead-dark">
+                       <tr>
+                         <th scope="col">#</th>
+                         <th scope="col">Group</th>
+                         <th scope="col">Classes</th>
+                       </tr>
+                     </thead>
+                     <tbody>
+                       <tr>
+                         <th scope="row">1</th>
+                         <td>flat</td>  
+                         <td>road · sidewalk · parking+ · rail track+</td>
+                       </tr>
+                       <tr>
+                         <th scope="row">2</th>
+                         <td>human</td>
+                         <td>person* · rider*</td>
+                       </tr>
+                       <tr>
+                         <th scope="row">3</th>
+                         <td>vehicle</td>
+                         <td>car* · truck* · bus* · on rails* · motorcycle* · bicycle* · caravan*+ · trailer*+</td>
+                       </tr>
+                       <tr>
+                        <th scope="row">4</th>
+                        <td>object</td>
+                        <td>pole · pole group+ · traffic sign · traffic light</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>nature</td>
+                        <td>vegetation · terrain</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>sky</td>
+                        <td>sky</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>void</td>
+                        <td>ground+ · dynamic+ · static+</td>
+                      </tr>
+                     </tbody>
+                   </table>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <!-- end service -->
+     <!-- our blog -->
+     <!-- <div id="blog" class="blog">
+           <div class="container">
+              <div class="row">
+                 <div class="col-md-12">
+                    <div class="titlepage">
+                       <h2 style = "color: #2d84d2;">Our Blog</h2>
+                       <span>Lorem Ipsum is that it has a more-or-less normal distribution of letters,</span> 
+                    </div>
+                 </div>
+              </div>
+              <div class="row">
+                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="blog-box">
+                       <figure><img src="images/blog-image0.jpg" alt="#"/>
+                          <span>10 August 2019</span>
+                       </figure>
+                       <div class="travel">
+                          <span>Post  By :  Travel  Agency</span> 
+                          <p><strong class="Comment"> 06 </strong>  Comment</p>
+                          <p><strong class="like">05 </strong>Like</p>
+                       </div>
+                       <h3>London Amazing Tour</h3>
+                       <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web</p>
+                    </div>
+                 </div>
+                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="blog-box">
+                       <figure><img src="images/blog-image.jpg" alt="#"/>
+                          <span>12 August 2019</span>
+                       </figure>
+                       <div class="travel">
+                          <span>Post  By :  Travel  Agency</span> 
+                          <p><strong class="Comment"> 06 </strong>  Comment</p>
+                          <p><strong class="like">05 </strong>Like</p>
+                       </div>
+                       <h3>London Amazing Tour</h3>
+                       <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web</p>
+                    </div>
+                 </div>
+                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="blog-box">
+                       <figure><img src="images/blog-image.jpg" alt="#"/>
+                          <span>14 August 2019</span>
+                       </figure>
+                       <div class="travel">
+                          <span>Post  By :  Travel  Agency</span> 
+                          <p><strong class="Comment"> 06 </strong>  Comment</p>
+                          <p><strong class="like">05 </strong>Like</p>
+                       </div>
+                       <h3>London Amazing Tour</h3>
+                       <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web</p>
+                    </div>
+                 </div>
+                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="blog-box">
+                       <figure><img src="images/blog-image0.jpg" alt="#"/>
+                          <span>15 August 2019</span>
+                       </figure>
+                       <div class="travel">
+                          <span>Post  By :  Travel  Agency</span> 
+                          <p><strong class="Comment"> 06 </strong>  Comment</p>
+                          <p><strong class="like">05 </strong>Like</p>
+                       </div>
+                       <h3>London Amazing Tour</h3>
+                       <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web</p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div> -->
+     <!-- end our blog -->
+     <!-- end Testimonial -->
+     <!--  footer -->
+     <footr>
+        <div class="footer">
+           <div class="container">
+              <div class="row" data-aos="fade-right" data-aos-anchor="#collaborators" data-aos-offset="200"
+                 data-aos-duration="1000">
+                 <div class="col-lg-2 col-md-6 col-sm-12 width">
+                    <div class="address">
+                       <h3>Address</h3>
+                       <i><img src="icon/3.png">Locations</i>
+                    </div>
+                 </div>
+                 <div class="col-lg-2 col-md-6 col-sm-12 width">
+                    <div class="address">
+                       <h3>Menus</h3>
+                       <i><img src="icon/2.png">Locations</i>
+                    </div>
+                 </div>
+                 <div class="col-lg-2 col-md-6 col-sm-12 width">
+                    <div class="address">
+                       <h3>Useful Linkes</h3>
+                       <i><img src="icon/1.png">Locations</i>
+                    </div>
+                 </div>
+                 <div class="col-lg-2 col-md-6 col-sm-12 width">
+                    <div class="address">
+                       <h3>Social Media </h3>
+                       <ul class="contant_icon">
+                          <li><img src="icon/fb.png" alt="icon" /></li>
+                          <li><img src="icon/tw.png" alt="icon" /></li>
+                          <li><img src="icon/lin(2).png" alt="icon" /></li>
+                       </ul>
+                    </div>
+                 </div>
+                 <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 width">
+                    <div class="address">
+                       <h3>Newsletter </h3>
+                       <input class="form-control" placeholder="Enter your email" type="type" name="Enter your email">
+                    </div>
+                 </div>
+              </div>
+  
+  
+           </div>
+        </div>
+     </footr>
+     <!-- end footer -->
+     <!-- Javascript files-->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/jquery-3.0.0.min.js"></script>
+  
+     <!-- sidebar -->
+     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+     <script src="js/plugin.js"></script>
+     <script src="js/custom.js"></script>
+     <script>
+        $(document).ready(function () {
+           console.log("init");
+  
+           AOS.init();
+  
+           console.log("AOS called");
+  
+           $(".zoom").hover(function () {
+  
+              $(this).addClass('transition');
+           }, function () {
+  
+              $(this).removeClass('transition');
+           });
+        });
+  
+        $(function () {
+           $("#container1").twentytwenty()
+           $("#container2").twentytwenty()
+           $("#container3").twentytwenty()
+           $("#container4").twentytwenty()
+        });
+  
+     </script>
+     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+     <!--Twenty Twenty Event Move JS-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.event.move.min.js"
+        integrity="sha512-LbipuILGe2LAzpjWmMA+B++LsvW1nAL5IQXvpmidOmJmei0p/odo6ewzxX8YHGc51DGIwcUDa6LxQxOEf7G1EA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <!--Twenty Twenty  JS-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.twentytwenty.min.js"
+        integrity="sha512-GPLeok4pmABjbz8dF6i4cqao9fhF9LE5X4rI0ORBe2YqbZmaqdSiM7g4oO+CEy99SxZV6memnoKANwopFr6Z6g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+</body>
+</html>
