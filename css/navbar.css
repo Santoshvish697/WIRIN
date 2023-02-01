@@ -73,7 +73,8 @@
 }
 
 .header-area .main-nav a.logo {
-  background-image: url(../images/white-logo.png);
+  background-image: url(../images/logos/WIRIN.png);
+  background-size: contain;
   width: 166px;
   height: 58px;
   display: inline-block;
@@ -81,7 +82,8 @@
 }
 
 .background-header .main-nav a.logo {
-  background-image: url(../images/black-logo.png);
+  background-image: url(../images/logos/WIRIN.png);
+  background-size: contain;
   width: 164px;
   height: 58px;
   display: inline-block;
