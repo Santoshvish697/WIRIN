@@ -14,7 +14,7 @@ $(function () {
 		var box = $('.header-text').height();
 		var header = $('header').height();
 
-		if (scroll >= box - header) {
+		if (scroll >= box - header + 100) {
 			$("header").addClass("background-header");
 		} else {
 			$("header").removeClass("background-header");
@@ -34,7 +34,7 @@ $(function () {
 
 	// Page loading animation
 	$(document).ready( function () {
-		$('#js-preloader').addClass('loaded');
+		// $('#js-preloader').addClass('loaded');
 	});
 
 
